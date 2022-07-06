@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="ETOEProject.Project.Listeners"/>
+</listeners>
+  <test  name="validatetest">
+    <classes>
+      <class name="ETOEProject.Project.validateTitle"/>
+        </classes>
+  </test>
+    <test  name="apptest">
+    <classes>
+      <class name="ETOEProject.Project.AppTest"/>
+       </classes>
+  </test> 
+   <test  name="validatenavigattionbar">
+    <classes>
+      <class name="ETOEProject.Project.validatenavigationbar"/>
+       </classes>
+  </test>
+  <test  name="validate homepage">
+    <classes>
+      <class name="ETOEProject.Project.home"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
